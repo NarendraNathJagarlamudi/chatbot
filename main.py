@@ -24,12 +24,6 @@ trainer = Trainer(config.load("config.yml"))
 interpreter = trainer.train(training_data)
 model_directory = trainer.persist("./models/nlu", fixed_model_name="current")
 
-import json
-def pprint(o):
-    print(json.dumps(o, indent=2))
-
-pprint(interpreter.parse("hi"))
-
 # Import the policies and agent
 from rasa_core.policies import FallbackPolicy, MemoizationPolicy,KerasPolicy
 from rasa_core.agent import Agent
@@ -44,8 +38,8 @@ training_data = agent.load_data('stories.md')
 # Training the model
 agent.train(
     training_data,
-    validation_split=0.0,
-    epochs=200
+    validation_split=0.1,
+    epochs=150
 )
 
 agent.persist('models/dialogue')
