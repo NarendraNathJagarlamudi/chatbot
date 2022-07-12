@@ -1,0 +1,276 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "moin"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "let's go"
+      },
+      {
+        "intent": "greet",
+        "text": "hey dude"
+      },
+      {
+        "intent": "greet",
+        "text": "goodmorning"
+      },
+      {
+        "intent": "greet",
+        "text": "goodevening"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good by"
+      },
+      {
+        "intent": "goodbye",
+        "text": "cee you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good night"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a nice day"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you around"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "order",
+        "text": "Are you open"
+      },
+      {
+        "intent": "order",
+        "text": "Can I order"
+      },
+      {
+        "intent": "order",
+        "text": "I want to order"
+      },
+      {
+        "intent": "order",
+        "text": "Will you deliver ?"
+      },
+      {
+        "intent": "order",
+        "text": "I want to place order"
+      },
+      {
+        "intent": "order",
+        "text": "Is food available now ?"
+      },
+      {
+        "intent": "order",
+        "text": "Can I order now ?"
+      },
+      {
+        "intent": "choosing_item",
+        "text": "1"
+      },
+      {
+        "intent": "choosing_item",
+        "text": "2"
+      },
+      {
+        "intent": "choosing_item",
+        "text": "3"
+      },
+      {
+        "intent": "choosing_item",
+        "text": "4"
+      },
+      {
+        "intent": "choosing_item",
+        "text": "5"
+      },
+      {
+        "intent": "choosing_item",
+        "text": "6"
+      },
+      {
+        "intent": "choosing_item",
+        "text": "7"
+      },
+      {
+        "intent": "order_enquiry",
+        "text": "How long will it take ?"
+      },
+      {
+        "intent": "order_enquiry",
+        "text": "How much time ?"
+      },
+      {
+        "intent": "order_enquiry",
+        "text": "When can I expect the order"
+      },
+      {
+        "intent": "order_enquiry",
+        "text": "Will it take long ?"
+      },
+      {
+        "intent": "order_enquiry",
+        "text": "I am waiting for the delivery"
+      },
+      {
+        "intent": "order_enquiry",
+        "text": "Who will deliver"
+      },
+      {
+        "intent": "order_enquiry",
+        "text": "I am hungry"
+      },
+      {
+        "intent": "complain",
+        "text": "food was bad"
+      },
+      {
+        "intent": "complain",
+        "text": "poor quality"
+      },
+      {
+        "intent": "complain",
+        "text": "It was bad"
+      },
+      {
+        "intent": "complain",
+        "text": "very bad taste"
+      },
+      {
+        "intent": "complain",
+        "text": "poor taste"
+      },
+      {
+        "intent": "complain",
+        "text": "there was a fly in it"
+      },
+      {
+        "intent": "complain",
+        "text": "It was not hygienic"
+      },
+      {
+        "intent": "complain",
+        "text": "Not clean"
+      },
+      {
+        "intent": "complain",
+        "text": "poor packaging"
+      },
+      {
+        "intent": "complain",
+        "text": "I won't order again"
+      },
+      {
+        "intent": "complain",
+        "text": "bad"
+      },
+      {
+        "intent": "complain",
+        "text": "terrible"
+      },
+      {
+        "intent": "complain",
+        "text": "wrong food delivered"
+      },
+      {
+        "intent": "complain",
+        "text": "I didn't order this"
+      },
+      {
+        "intent": "suggest",
+        "text": "Make it more spicy"
+      },
+      {
+        "intent": "suggest",
+        "text": "You can improve actually"
+      },
+      {
+        "intent": "suggest",
+        "text": "You can improve the taste"
+      },
+      {
+        "intent": "suggest",
+        "text": "you can expand the menu I guess"
+      },
+      {
+        "intent": "suggest",
+        "text": "Add more dishes to the menu"
+      },
+      {
+        "intent": "suggest",
+        "text": "speed delivery would be better"
+      },
+      {
+        "intent": "suggest",
+        "text": "try to reduce time"
+      },
+      {
+        "intent": "suggest",
+        "text": "Add continental dishes too!"
+      },
+      {
+        "intent": "suggest",
+        "text": "Hope you'll take less time hereafter"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

@@ -1,0 +1,5 @@
+
+run the command:
+python -m spacy download en_core_web_md 
+
+Place the rasa_core, rasa_nlu folders in "path to anaconda"\envs\chatbot\lib\site-packages\
