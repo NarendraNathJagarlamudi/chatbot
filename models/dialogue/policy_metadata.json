@@ -9,16 +9,16 @@
     "utter_order_received": {
       "slots": []
     },
-    "utter_receive_complaint": {
+    "utter_greet": {
       "slots": []
     },
-    "utter_enquiry": {
+    "utter_receive_complaint": {
       "slots": []
     },
     "utter_take_suggestion": {
       "slots": []
     },
-    "utter_greet": {
+    "utter_enquiry": {
       "slots": []
     }
   },
