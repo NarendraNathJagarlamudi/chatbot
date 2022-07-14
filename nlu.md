@@ -25,14 +25,12 @@
 - bye bye
 - see you later
 
-## intent:order
-- Are you open
-- Can I order
-- I want to order
-- Will you deliver ?
-- I want to place order
-- Is food available now ?
-- Can I order now ?
+## intent:enquiry
+- How is wwt good with work?
+- why should i choose wwt?
+- Is price negotiable?
+- what is the price for the cloud services?
+- Will there be anticipated deadline for the given project?
 
 ## intent:choosing_item
 - 1
@@ -43,39 +41,22 @@
 - 6
 - 7
 
-## intent:order_enquiry
-- How long will it take ?
-- How much time ?
-- When can I expect the order
-- Will it take long ?
-- I am waiting for the delivery
-- Who will deliver 
-- I am hungry
 
 ## intent:complain
-- food was bad
-- poor quality
-- It was bad
-- very bad taste
-- poor taste
-- there was a fly in it
-- It was not hygienic
-- Not clean
-- poor packaging
-- I won't order again
-- bad
-- terrible
-- wrong food delivered
-- I didn't order this
+- The quality of project is bad.
+- I want to complain about the project manager
+- I never want to come back again
+- 
 
 
 ## intent:suggest
-- Make it more spicy
-- You can improve actually
-- You can improve the taste
-- you can expand the menu I guess
-- Add more dishes to the menu
+- The quality of project can be increased by adding some new technologies
+- The project is good but making the project user-friendly can be even great!
+- You can improve the delivery time.
+- you can expand the services provided.
+- Add more services.
 - speed delivery would be better
 - try to reduce time
-- Add continental dishes too!
+- Add global support!
 - Hope you'll take less time hereafter
+- I want to give some feedback
