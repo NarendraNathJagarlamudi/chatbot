@@ -5,7 +5,7 @@ import spacy
 import warnings
 warnings.filterwarnings("ignore")
 
-import logging, io, json, warnings
+import logging,io, json, warnings
 logging.basicConfig(level="INFO")
 warnings.filterwarnings('ignore')
 
@@ -45,10 +45,11 @@ agent.train(
 agent.persist('models/dialogue')
 
 #Starting the Bot
+
 from rasa_core.agent import Agent
 agent = Agent.load('models/dialogue', interpreter=model_directory)
 
-print("Your bot is ready to talk! Type your messages here or send 'stop'")
+print("Hello, Zachary! How may I help you?")
 while True:
     a = input()
     if a == 'stop':
@@ -56,4 +57,3 @@ while True:
     responses = agent.handle_message(a)
     for response in responses:
         print(response["text"])
-

@@ -6,13 +6,10 @@
     "utter_goodbye": {
       "slots": []
     },
-    "utter_order_received": {
-      "slots": []
-    },
-    "utter_greet": {
-      "slots": []
-    },
     "utter_receive_complaint": {
+      "slots": []
+    },
+    "utter_survey": {
       "slots": []
     },
     "utter_take_suggestion": {

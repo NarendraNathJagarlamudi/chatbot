@@ -15,34 +15,26 @@ entities:
 - group
 
 actions:
-- utter_greet
-- utter_menu
-- utter_order_received
 - utter_enquiry
 - utter_receive_complaint
 - utter_take_suggestion
 - utter_goodbye
+- utter_survey
 
 
 templates:
-  utter_greet:
-  - text: "Hey! Welcome to Biker's cafe . How may I help you ?"
-
-  utter_menu:
-  - text: "Yes, we are open 24 X 7. Here's our menu. 1. Chicken popcorn  2. White sauce pasta 3. Macroni  4. Lasagna  5. Pizza  6. Taco  7. Garlic breadsticks  8. coke (500 ml). Enter  1 if you want popcorn, 5 for Pizza and so on"
-
-  utter_order_received:
-  - text: "Great choice ! Your order has been confirmed . Wait while our top chefs prepare your delicious food !"
-
 
   utter_enquiry:
-  - text: " Your food is being prepared. It usually takes 1 second "
+  - text: "Of course! This link will take you to more information: \nhttps://www.wwt.com/labs"
 
   utter_receive_complaint:
-  - text: " Sorry that you faced trouble. We have noted your issues and it shall not be repeated again"
+  - text: "I'm sorry to hear you are having trouble! How can we best help you?"
 
   utter_take_suggestion:
-  - text: " Sure , we shall take into account . Thanks for suggestion "
+  - text: "Thank you for your suggestion! Can I help in any other ways?"
 
   utter_goodbye:
-    - text: " Thankyou for choosing us. Waiting for your next visit. Good bye"
+    - text: "You're welcome! Before you go, how you you rate my helpfulness on a scale from one to five (one being lowest)?"
+
+  utter_survey:
+    - text: "Thank you for your feedback! Have a great day! Goodbye! :)"

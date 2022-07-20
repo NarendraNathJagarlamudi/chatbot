@@ -1,15 +1,6 @@
-##  Greeting path             
-* greet              
-  - utter_greet
 
-## Order path
-* order
-  - utter_menu
-* choosing_item
-  - utter_order_received
-
-## Enquires path
-* order_enquiry
+## Enquires ATC
+* ATC
   - utter_enquiry
 
 ## complain path
@@ -25,3 +16,7 @@
 ## say goodbye
 * goodbye
   - utter_goodbye
+
+## survey result
+* survey
+  - utter_survey

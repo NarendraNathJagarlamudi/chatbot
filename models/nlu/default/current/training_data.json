@@ -3,10 +3,6 @@
     "common_examples": [
       {
         "intent": "greet",
-        "text": "hey"
-      },
-      {
-        "intent": "greet",
         "text": "hello there"
       },
       {
@@ -43,23 +39,211 @@
       },
       {
         "intent": "greet",
-        "text": "goodmorning"
-      },
-      {
-        "intent": "greet",
-        "text": "goodevening"
-      },
-      {
-        "intent": "greet",
         "text": "good afternoon"
       },
       {
-        "intent": "goodbye",
-        "text": "good by"
+        "intent": "logistics and operations",
+        "text": "When can I expect our PO to make it through outbound facility"
+      },
+      {
+        "intent": "logistics and operations",
+        "text": "Back-to-Stock"
+      },
+      {
+        "intent": "logistics and operations",
+        "text": "https://wwt.sharepoint.com/sites/LakeviewTechnologyCenter-Logistics"
+      },
+      {
+        "intent": "logistics and operations",
+        "text": "How can we ensure our racks are ESD compliant."
+      },
+      {
+        "intent": "ATC",
+        "text": "Schedule a ATC visit"
+      },
+      {
+        "intent": "ATC",
+        "text": "https://www.wwt.com/labs"
+      },
+      {
+        "intent": "ATC",
+        "text": "ATC Lab Services"
+      },
+      {
+        "intent": "ATC",
+        "text": "Labs will not load"
+      },
+      {
+        "intent": "ATC",
+        "text": "I want to learn more about ATC labs"
+      },
+      {
+        "intent": "ATC",
+        "text": "ATC labs"
+      },
+      {
+        "intent": "ATC",
+        "text": "I want to know more about ATC Labs"
+      },
+      {
+        "intent": "consulting and BAA",
+        "text": "Cloud security recommendations --> https://www.wwt.com/topic/cloud-security/overview"
+      },
+      {
+        "intent": "consulting and BAA",
+        "text": "training aids --> https://www.wwt.com/community/consulting-services-training/about"
+      },
+      {
+        "intent": "consulting and BAA",
+        "text": "Need to discuss SoW (statement of work) with an engagement manager"
+      },
+      {
+        "intent": "consulting and BAA",
+        "text": "Need help Tableau, PowerBI, etc (data visualization)"
+      },
+      {
+        "intent": "global accounts",
+        "text": "Purchase Order"
+      },
+      {
+        "intent": "global accounts",
+        "text": "https://www.wwt.com/financialservices"
+      },
+      {
+        "intent": "global accounts",
+        "text": "Account Team"
+      },
+      {
+        "intent": "global accounts",
+        "text": "Client Manager"
+      },
+      {
+        "intent": "global accounts",
+        "text": "(Salesforce Terms--> 10% (Discover), 40% (Pursuit), 70% (Stretch), 80% (Upside Commit), 90% (Commit)"
+      },
+      {
+        "intent": "complain",
+        "text": "Terrible customer service :("
+      },
+      {
+        "intent": "complain",
+        "text": "I never want to come back again"
+      },
+      {
+        "intent": "complain",
+        "text": "I want to complain about the project manager"
+      },
+      {
+        "intent": "complain",
+        "text": "The quality of project is bad."
+      },
+      {
+        "intent": "complain",
+        "text": "I have a problem"
+      },
+      {
+        "intent": "complain",
+        "text": "I have a problem with my project manager"
+      },
+      {
+        "intent": "complain",
+        "text": "I want to complain about my project manager"
+      },
+      {
+        "intent": "complain",
+        "text": "I want to complain"
+      },
+      {
+        "intent": "compliment",
+        "text": "The project team really knew their stuff and proposed great strategic solutions for us!"
+      },
+      {
+        "intent": "compliment",
+        "text": "The price is affordable!"
+      },
+      {
+        "intent": "suggest",
+        "text": "Prices could be more affordable"
+      },
+      {
+        "intent": "suggest",
+        "text": "I wish you would offer more options"
+      },
+      {
+        "intent": "suggest",
+        "text": "The quality of project can be increased by adding some new technologies"
+      },
+      {
+        "intent": "suggest",
+        "text": "The project is good but making the project user-friendly can be even great!"
+      },
+      {
+        "intent": "suggest",
+        "text": "You can improve the delivery time."
+      },
+      {
+        "intent": "suggest",
+        "text": "you can expand the services provided."
+      },
+      {
+        "intent": "suggest",
+        "text": "Add more services."
+      },
+      {
+        "intent": "suggest",
+        "text": "speed delivery would be better"
+      },
+      {
+        "intent": "suggest",
+        "text": "try to reduce time"
+      },
+      {
+        "intent": "suggest",
+        "text": "Add global support!"
+      },
+      {
+        "intent": "suggest",
+        "text": "user friendly"
+      },
+      {
+        "intent": "suggest",
+        "text": "Hope you'll take less time hereafter"
+      },
+      {
+        "intent": "suggest",
+        "text": "I want to give some feedback"
+      },
+      {
+        "intent": "suggest",
+        "text": "BAA customer service could be better"
+      },
+      {
+        "intent": "enquiry",
+        "text": "How is wwt good with work?"
+      },
+      {
+        "intent": "enquiry",
+        "text": "why should i choose wwt?"
+      },
+      {
+        "intent": "enquiry",
+        "text": "Is price negotiable?"
+      },
+      {
+        "intent": "enquiry",
+        "text": "what is the price for the cloud services?"
+      },
+      {
+        "intent": "enquiry",
+        "text": "Will there be anticipated deadline for the given project?"
       },
       {
         "intent": "goodbye",
-        "text": "cee you later"
+        "text": "good bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
       },
       {
         "intent": "goodbye",
@@ -94,180 +278,52 @@
         "text": "see you later"
       },
       {
-        "intent": "order",
-        "text": "Are you open"
+        "intent": "goodbye",
+        "text": "Thank you"
       },
       {
-        "intent": "order",
-        "text": "Can I order"
+        "intent": "goodbye",
+        "text": "Thanks"
       },
       {
-        "intent": "order",
-        "text": "I want to order"
-      },
-      {
-        "intent": "order",
-        "text": "Will you deliver ?"
-      },
-      {
-        "intent": "order",
-        "text": "I want to place order"
-      },
-      {
-        "intent": "order",
-        "text": "Is food available now ?"
-      },
-      {
-        "intent": "order",
-        "text": "Can I order now ?"
-      },
-      {
-        "intent": "choosing_item",
+        "intent": "survey",
         "text": "1"
       },
       {
-        "intent": "choosing_item",
+        "intent": "survey",
+        "text": "one"
+      },
+      {
+        "intent": "survey",
         "text": "2"
       },
       {
-        "intent": "choosing_item",
+        "intent": "survey",
+        "text": "two"
+      },
+      {
+        "intent": "survey",
         "text": "3"
       },
       {
-        "intent": "choosing_item",
+        "intent": "survey",
+        "text": "three"
+      },
+      {
+        "intent": "survey",
         "text": "4"
       },
       {
-        "intent": "choosing_item",
+        "intent": "survey",
+        "text": "four"
+      },
+      {
+        "intent": "survey",
         "text": "5"
       },
       {
-        "intent": "choosing_item",
-        "text": "6"
-      },
-      {
-        "intent": "choosing_item",
-        "text": "7"
-      },
-      {
-        "intent": "order_enquiry",
-        "text": "How long will it take ?"
-      },
-      {
-        "intent": "order_enquiry",
-        "text": "How much time ?"
-      },
-      {
-        "intent": "order_enquiry",
-        "text": "When can I expect the order"
-      },
-      {
-        "intent": "order_enquiry",
-        "text": "Will it take long ?"
-      },
-      {
-        "intent": "order_enquiry",
-        "text": "I am waiting for the delivery"
-      },
-      {
-        "intent": "order_enquiry",
-        "text": "Who will deliver"
-      },
-      {
-        "intent": "order_enquiry",
-        "text": "I am hungry"
-      },
-      {
-        "intent": "complain",
-        "text": "food was bad"
-      },
-      {
-        "intent": "complain",
-        "text": "poor quality"
-      },
-      {
-        "intent": "complain",
-        "text": "It was bad"
-      },
-      {
-        "intent": "complain",
-        "text": "very bad taste"
-      },
-      {
-        "intent": "complain",
-        "text": "poor taste"
-      },
-      {
-        "intent": "complain",
-        "text": "there was a fly in it"
-      },
-      {
-        "intent": "complain",
-        "text": "It was not hygienic"
-      },
-      {
-        "intent": "complain",
-        "text": "Not clean"
-      },
-      {
-        "intent": "complain",
-        "text": "poor packaging"
-      },
-      {
-        "intent": "complain",
-        "text": "I won't order again"
-      },
-      {
-        "intent": "complain",
-        "text": "bad"
-      },
-      {
-        "intent": "complain",
-        "text": "terrible"
-      },
-      {
-        "intent": "complain",
-        "text": "wrong food delivered"
-      },
-      {
-        "intent": "complain",
-        "text": "I didn't order this"
-      },
-      {
-        "intent": "suggest",
-        "text": "Make it more spicy"
-      },
-      {
-        "intent": "suggest",
-        "text": "You can improve actually"
-      },
-      {
-        "intent": "suggest",
-        "text": "You can improve the taste"
-      },
-      {
-        "intent": "suggest",
-        "text": "you can expand the menu I guess"
-      },
-      {
-        "intent": "suggest",
-        "text": "Add more dishes to the menu"
-      },
-      {
-        "intent": "suggest",
-        "text": "speed delivery would be better"
-      },
-      {
-        "intent": "suggest",
-        "text": "try to reduce time"
-      },
-      {
-        "intent": "suggest",
-        "text": "Add continental dishes too!"
-      },
-      {
-        "intent": "suggest",
-        "text": "Hope you'll take less time hereafter"
+        "intent": "survey",
+        "text": "five"
       }
     ],
     "regex_features": [],

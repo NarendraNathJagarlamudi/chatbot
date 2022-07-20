@@ -11,12 +11,10 @@
     "slot_group_0",
     "prev_action_listen",
     "prev_action_restart",
-    "prev_utter_greet",
-    "prev_utter_menu",
-    "prev_utter_order_received",
     "prev_utter_enquiry",
     "prev_utter_receive_complaint",
     "prev_utter_take_suggestion",
-    "prev_utter_goodbye"
+    "prev_utter_goodbye",
+    "prev_utter_survey"
   ]
 }
